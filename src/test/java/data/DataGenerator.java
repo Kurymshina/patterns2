@@ -59,27 +59,12 @@ public class DataGenerator {
             return registeredUser;
         }
     }
-
+@Value
     public static class RegistrationDto {
         String login;
 
         String password;
 
         String status;
-
-        public String getLogin() {
-            return login;
-        }
-
-        public String getPassword() {
-            return password;
-        }
-
-
-        public RegistrationDto(String login, String password, String status) {
-            this.login = login;
-            this.password = password;
-            this.status = status;
-        }
     }
 }
